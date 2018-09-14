@@ -17,7 +17,7 @@ sea más fácil de entender.
 
 *************************************************************************************
 
-#Java exercises with Enum, dates, etc, that will help us learn the basics of programming.
+# Java exercises with Enum, dates, etc, that will help us learn the basics of programming.
 
 In these exercises you can review the enum, if and switch conditions and some for and do whiile loop. All in a fun way,
 with simple examples:
