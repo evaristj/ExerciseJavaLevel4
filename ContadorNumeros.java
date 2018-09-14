@@ -7,15 +7,15 @@ public class ContadorNumeros {
 	public static void main(String[] args) {
 
 		/*
-		 * 38) Pedir números al usuario y cuando el usuario meta un -1 se terminará el
-		 * programa. Al terminar, mostrará lo siguiente: – mayor numero introducido –
-		 * menor numero introducido – suma de todos los numeros – suma de los numeros
-		 * positivos – suma de los numeros negativos – media de la suma El número -1 no
-		 * contara como número.
+		 * 38) Pedir nÃºmeros al usuario y cuando el usuario meta un -1 se terminarÃ¡ el
+		 * programa. Al terminar, mostrarÃ¡ lo siguiente: â€“ mayor numero introducido â€“
+		 * menor numero introducido â€“ suma de todos los numeros â€“ suma de los numeros
+		 * positivos â€“ suma de los numeros negativos â€“ media de la suma El nÃºmero -1 no
+		 * contara como nÃºmero.
 		 */
 
 		System.out
-				.println("Introduce números. Para terminar introduce -1. A continuación calcularemos todos los introducidos.");
+				.println("Introduce nÃºmeros. Para terminar introduce -1. A continuaciÃ³n calcularemos todos los introducidos.");
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 
@@ -34,7 +34,7 @@ public class ContadorNumeros {
 
 		do {
 			System.out.println("Introduce un numero:");
-			principal = sc.nextInt();
+			principal = sc.nextDouble();
 
 			// si el num introducido es mayor a numMayor, igualamos la variable numMayor a
 			// principal
@@ -61,7 +61,7 @@ public class ContadorNumeros {
 
 			contador++;
 
-			// cuando insertemos -1 nuestro programa finalizará
+			// cuando insertemos -1 nuestro programa finalizarÃ¡
 		} while (principal != -1);
 
 		mediaSuma = suma / contador;
